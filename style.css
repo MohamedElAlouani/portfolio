@@ -1,0 +1,334 @@
+html {
+	height: 100%;
+	background-size: cover;
+	background: linear-gradient(45deg, #7B1FA2, #5f1e7a)
+}
+
+.top {
+	font-family: Arvo;
+	font-size: 20px;
+	height: 100px;
+	width: 500px;
+	margin-left: 550px;
+}
+
+#textPortfolio {
+	color: #448AAF;
+	margin-top: 70px;
+	width: 170px;
+	position: relative;
+	float: left;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
+#textAbout {
+	color: #448AAF;
+	margin-top: 70px;
+	width: 177px;
+	position: relative;
+	float: left;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
+#textContact {
+	color: #448AAF;
+	margin-top: 70px;
+	width: 115px;
+	position: relative;
+	float: left;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
+.name {
+	font-size: 90px;
+	font-family: Arvo;
+	color: #009688;
+	margin-left: 200px;
+	cursor: pointer;
+	position: relative;
+}
+
+.initial {
+	position: relative;
+	float: left;
+}
+
+.name:hover {
+	text-shadow: 2px 2px #9C27B0;
+	}
+
+#notInitial1 {
+	text-align: left;
+	float: left;
+	width: 467px;
+}
+
+#notInitial2 {
+	text-align: left;
+	float: left;
+	width: 251px;
+}
+
+.main {
+	float: left;
+	margin-left: 150px;
+	margin-bottom: 20px;
+	position: relative;
+	width: 550px;
+	display: none;
+}
+
+.portfolio {
+	height: 110px;
+	width: 115px;
+	position: relative;
+	float:left;
+	padding: 20px;
+	cursor: pointer;
+	box-shadow: inset 0 0 0 0 #009688;
+	-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+	overflow: auto;
+	position: relative;
+}
+
+#eins {
+	width: 0px;
+	height: 0px;
+	border-left: 70px solid #448AAF;
+	border-top: 45px solid transparent;
+	border-bottom: 45px solid transparent;
+	position: absolute;
+	transition: all 0.5s ease
+}
+
+#zwei {
+	width: 0px;
+	height: 0px;
+	border-left: 70px solid #3F51B5;
+	border-top: 45px solid transparent;
+	border-bottom: 45px solid transparent;
+	position: absolute;
+	transition: all 0.5s ease
+}
+
+#drei {
+	width: 0px;
+	height: 0px;
+	border-left: 70px solid #303F9F;
+	border-top: 45px solid transparent;
+	border-bottom: 45px solid transparent;
+	position: absolute;
+	transition: all 0.5s ease;
+}
+
+.portfolio:hover > #zwei {
+	margin-left: 15px;
+}
+
+.portfolio:hover > #drei {
+	margin-left: 30px;
+}
+
+.about {
+	height: 160px;
+	width: 110px;
+	float:left;
+	padding: 20px;
+	cursor: pointer;
+	overflow: auto;
+	position:relative;
+}
+
+
+#wahed {
+	height: 90px;
+	width: 90px;
+	background-color: #303F9F;
+	position: absolute;
+	transition: all 0.5s ease;
+}
+
+#jouj {
+	height: 90px;
+	width: 90px;
+	background-color: #3F51B5;
+	position: absolute;
+	transition: all 0.5s ease;
+}
+
+#tlata {
+	height: 90px;
+	width: 90px;
+	background-color: #448AAF;
+	position: absolute;
+	transition: all 0.5s ease;
+}
+
+.about:hover > #jouj {
+	margin-top: 15px;
+}
+
+.about:hover > #tlata {
+	margin-top: 30px;
+}
+
+
+.contact {
+	height: 110px;
+	width: 130px;
+	float:left;
+	padding: 20px;
+	cursor: pointer;
+	overflow: auto;
+	position: relative;
+}
+
+#one {
+	height: 90px;
+	width: 90px;
+	margin-left: 30px;
+	border-radius: 100%;
+	background-color: #303F9F;
+	position: absolute;;
+	float: left;
+	transition: all 0.5s ease;
+}
+
+#two {
+	height: 90px;
+	width: 90px;
+	margin-left: 30px;
+	border-radius: 100%;
+	background-color: #448AAF;
+	position: absolute;
+	float: left;
+	transition: all 0.5s ease;
+}
+
+#three {
+	height: 90px;
+	width: 90px;
+	margin-left: 30px;
+	border-radius: 100%;
+	background-color: #3F51B5;
+	position: absolute;
+	transition: all 0.5s ease;
+}
+
+.contact:hover > #two {
+	margin-left: 20px;	
+}
+
+.contact:hover > #three {
+	margin-left: 10px;	
+}
+
+.rwina {
+	height: 300px;
+	width: 550px;
+	margin-left: 500px;
+	margin-top: 170px;
+	position: relative;
+}
+
+.uselessStrip {
+	height: 20px;
+	width: 0px;
+	background-color: #448AAF;
+	position: relative;
+	float: bottom;
+	transition: all 0.5s ease;
+}
+
+.info {
+	height: 0px;
+	width: 550px;
+	background-color: #3F51B5;
+	position: relative;
+	transition: all 0.5s ease;
+}
+
+.po {
+	height: 300px;
+	width: 550px;
+	position: absolute;
+}
+
+.po > div {
+	opacity: 0;
+	transition: all 0.4s ease;
+}
+
+.ab {
+	height: 300px;
+	width: 550px;
+	position: absolute;
+}
+
+.co {
+	height: 300px;
+	width: 550px;
+	position: absolute;
+	font-family: Lato;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+.po > div > p {
+	font-family: Alto;
+	font-size: 16px;
+	color: white;
+	margin-top: 60px;
+	margin-left: 100px;
+}
+
+.co > div {
+	padding-top: 20px;
+	opacity: 0;
+	transition: all 0.4s ease;
+}
+
+.ab > div {
+	opacity: 0;
+	transition: all 0.4s ease;	
+}
+
+.ab > div > p {
+	font-family: Alto;
+	font-size: 16px;
+	color: white;
+	float: left;
+	margin-top: 45px;
+	margin-left: 30px;
+}
+
+.ab > div > img {
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	float: right;
+	margin-right: 30px;
+	margin-top: 40px;
+}
+
+
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+
+
+
+
