@@ -318,13 +318,13 @@ html {
 	font-size: 30px;
 	text-align: center;
 	text-decoration: none;
-	color: white;
+	color: #ccd6e1;
 }
 
 .po > div > p {
 	font-family: Alto;
 	font-size: 16px;
-	color: white;
+	color: #ccd6e1;
 	margin-top: 60px;
 	margin-left: 100px;
 }
@@ -343,7 +343,7 @@ html {
 .ab > div > p {
 	font-family: Alto;
 	font-size: 16px;
-	color: white;
+	color: #ccd6e1;
 	float: left;
 	margin-top: 45px;
 	margin-left: 30px;
@@ -361,11 +361,11 @@ html {
 
 
 a:link {
-    color: white;
+    color: #ccd6e1;
 }
 
 a:visited {
-    color: white;
+    color: #ccd6e1;
 }
 
 
