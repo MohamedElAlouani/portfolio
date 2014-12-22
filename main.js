@@ -32,7 +32,7 @@ $(document).ready(function() {
 				$(".uselessStrip").css("width", "0px");	
 			}, 400);
 			setTimeout(function() {		
-				$("#notInitial1").animate({width: "467px"}, 300).fadeIn(150).dequeue();
+				$("#notInitial1").animate({width: "400px"}, 300).fadeIn(150).dequeue();
 				$("#notInitial2").animate({width: "251px"}, 300).fadeIn(150).dequeue();
 				$(".main").fadeOut(100);
 			}, 600);

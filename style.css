@@ -5,11 +5,11 @@ html {
 }
 
 .top {
-	font-family: Arvo;
-	font-size: 20px;
+	font-family: Lato;
+	font-size: 22px;
 	height: 100px;
 	width: 500px;
-	margin-left: 570px;
+	margin-left: 547px;
 }
 
 #textPortfolio {
@@ -44,7 +44,7 @@ html {
 
 .name {
 	font-size: 90px;
-	font-family: Arvo;
+	font-family: Lato;
 	color: #009688;
 	margin-left: 200px;
 	cursor: pointer;
@@ -99,7 +99,7 @@ html {
 #notInitial1 {
 	text-align: left;
 	float: left;
-	width: 467px;
+	width: 400px;
 }
 
 #notInitial2 {
@@ -322,8 +322,8 @@ html {
 }
 
 .po > div > p {
-	font-family: Alto;
-	font-size: 16px;
+	font-family: Lato;
+	font-size: 20px;
 	color: #ccd6e1;
 	margin-top: 60px;
 	margin-left: 100px;
@@ -341,12 +341,12 @@ html {
 }
 
 .ab > div > p {
-	font-family: Alto;
-	font-size: 16px;
+	font-family: Lato;
+	font-size: 19px;
 	color: #ccd6e1;
 	float: left;
 	margin-top: 45px;
-	margin-left: 30px;
+	margin-left: 25px;
 }
 
 .ab > div > img {
@@ -354,7 +354,7 @@ html {
 	width: 150px;
 	border-radius: 100%;
 	float: right;
-	margin-right: 30px;
+	margin-right: 25px;
 	margin-top: 40px;
 }
 
