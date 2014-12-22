@@ -6,6 +6,7 @@ $(document).ready(function() {
 			$("#notInitial1").fadeOut(200).animate({width: "0%"}, 300).dequeue();
 			$("#notInitial2").fadeOut(200).animate({width: "0%"}, 300).dequeue();
 			$(".main").delay(200).fadeIn(100);
+			$(".pointer").css("animation-iteration-count", "0");
 		}
 		else {
 			nameCollapsed = false;
@@ -34,7 +35,8 @@ $(document).ready(function() {
 				$("#notInitial1").animate({width: "467px"}, 300).fadeIn(150).dequeue();
 				$("#notInitial2").animate({width: "251px"}, 300).fadeIn(150).dequeue();
 				$(".main").fadeOut(100);
-			}, 600);	
+			}, 600);
+			$(".pointer").css("animation-iteration-count", "infinite")	
 		}
 	});
 

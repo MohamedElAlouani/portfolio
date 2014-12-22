@@ -1,7 +1,7 @@
 html {
 	height: 100%;
 	background-size: cover;
-	background: linear-gradient(45deg, #7B1FA2, #5f1e7a)
+	background: linear-gradient(45deg, #BBD1EA, #BBD1EA)
 }
 
 .top {
@@ -9,11 +9,11 @@ html {
 	font-size: 20px;
 	height: 100px;
 	width: 500px;
-	margin-left: 550px;
+	margin-left: 570px;
 }
 
 #textPortfolio {
-	color: #448AAF;
+	color: #3f51b5;
 	margin-top: 70px;
 	width: 170px;
 	position: relative;
@@ -23,7 +23,7 @@ html {
 }
 
 #textAbout {
-	color: #448AAF;
+	color: #3f51b5;
 	margin-top: 70px;
 	width: 177px;
 	position: relative;
@@ -33,7 +33,7 @@ html {
 }
 
 #textContact {
-	color: #448AAF;
+	color: #3f51b5;
 	margin-top: 70px;
 	width: 115px;
 	position: relative;
@@ -51,6 +51,41 @@ html {
 	position: relative;
 }
 
+.pointer {
+	width: 20px;
+	position: relative;
+	float: left;
+	font-size: 10px;
+	margin-top: 20px;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+    animation-name: blinker;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;	
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+.arrow {
+	width: 0px;
+	height: 0px;
+	border-left: 15px solid #448AAF;
+	border-top: 10px solid transparent;
+	border-bottom: 15px solid transparent;
+	position: relative;	
+	float: right;
+}
+
+.clickHere {
+	position: relative;
+	float: left;
+}
+
 .initial {
 	position: relative;
 	float: left;
@@ -59,6 +94,7 @@ html {
 .name:hover {
 	text-shadow: 2px 2px #9C27B0;
 	}
+
 
 #notInitial1 {
 	text-align: left;
@@ -242,6 +278,8 @@ html {
 	background-color: #448AAF;
 	position: relative;
 	float: bottom;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 	transition: all 0.5s ease;
 }
 
@@ -250,6 +288,8 @@ html {
 	width: 550px;
 	background-color: #3F51B5;
 	position: relative;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;	
 	transition: all 0.5s ease;
 }
 
